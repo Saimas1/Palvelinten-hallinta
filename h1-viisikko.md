@@ -46,6 +46,9 @@ g) Kolme kiinnostavaa kohtaa: Osfinger Ubuntu 20.04: Kertoo minionin käyttöjä
 ![vagrant_kirjauduttu](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/924db0c3-5de1-4d53-be6c-77fded4e7058)
 
 
+# Lähdeviitteet
 
+Install Vagrant:[Install Vagrant](https://developer.hashicorp.com/vagrant/tutorials/getting-started/getting-started-install)
+Tero Karvinen, 2023 [Run Salt](https://terokarvinen.com/2021/salt-run-command-locally/) 
 
 
