@@ -54,6 +54,19 @@
 ![vagrant_herra_avain](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/d9415c22-3d3c-453b-b98e-c196cab89bbd)
 ![herra_orja](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/1919142c-11aa-4529-86fc-185c09a45158)
 
+## Tehtävä c)
+
+-Shell-komento orjalla
+![herra_cmd](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/6742a59c-46a6-4fb0-9c62-66e2c89264f2)
+
+## Tehtävä d)
+
+![teht_1_c](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/8d557ec1-cb5f-4c14-a906-d16875510ee3)
+![c_1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/5030f856-e9ef-43d4-b90f-fa9a4888f34e)
+
+## Tehtävä e)
+
+![grains_snip](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/e6b277bc-5b51-44c1-ba23-765c29378c13)
 
 
 
