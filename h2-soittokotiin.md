@@ -57,6 +57,7 @@
 ## Tehtävä c)
 
 -Shell-komento orjalla
+
 ![herra_cmd](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/6742a59c-46a6-4fb0-9c62-66e2c89264f2)
 
 ## Tehtävä d)
@@ -68,6 +69,18 @@
 
 ![grains_snip](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/e6b277bc-5b51-44c1-ba23-765c29378c13)
 
+## Tehtävä f)
 
+-En saanut kyseistä tehävää onnistumaan jostain syystä ja aika loppui kesken..  :(
+
+![ei_toimi](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/8c5f882c-7a0c-4bff-b3a8-4a5cc00373f6)
+
+
+
+## Lähteet 
+
+-Karvinen 2021, https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/ 
+-Karvinen 2018, https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux
+-Karvinen 2014, https://terokarvinen.com/2024/hello-salt-infra-as-code/ 
 
   
