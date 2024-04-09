@@ -49,6 +49,11 @@
 
 ## Tehtävä b)
 
+-Salt herra-orja asennus ja toimivuus
+![herra_ping](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/713e2293-f061-4a33-992e-08991f8a1a2d)
+![vagrant_herra_avain](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/d9415c22-3d3c-453b-b98e-c196cab89bbd)
+![herra_orja](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/1919142c-11aa-4529-86fc-185c09a45158)
+
 
 
 
