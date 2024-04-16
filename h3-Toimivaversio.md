@@ -17,8 +17,8 @@
    ```
    
 
-   - Tämä komento lisää kaikki uudet tai muokatut tiedostot "staging area"-alueelle
-   - "Staging area" on väliaikainen alue missä määritellään se, mitkä tiedostot sisällytetään seuraavaan committiin
+- Tämä komento lisää kaikki uudet tai muokatut tiedostot "staging area"-alueelle
+- "Staging area" on väliaikainen alue missä määritellään se, mitkä tiedostot sisällytetään seuraavaan committiin
 
 
 2. ```
