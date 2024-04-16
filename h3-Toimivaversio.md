@@ -51,6 +51,70 @@
      
    -  [Git Documentation add](https://git-scm.com/docs/git-add)
   
+# Tehtävä b)
 
-   
+- Tein uuden varaston Githubiin nimeltä summer2024
+-  Tämän jälkeen kloonasin varaston komennolla
+  ```
+git clone (varaston url)
+```
+
+-Siirryin kloonatuun varastoon komennolla:"
+```
+cd summer2024
+```
+
+-Tämän jälkeen muokkasin README.md tiedostoa lisäämällä tekstiä
+
+-Lisäsin muutokset stagetus-alueelle komennolla:
+
+```
+git add README.md
+```
+
+-Tallensin muutokset ja puskin ne Githubiin komennoilla
+
+```
+git commit -m "Teksti"
+git push origin main
+```
+
+-Siirryin Githubiin tarkistamaan tiedoston ja sinne oli siirtynyt teksti:
+
+![git_muutokset3](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/13302658-3bd5-424b-a117-d007087f0f45)
+
+# Tehtävä c)
+
+- Lisäsin README.md tiedostoon tyhjän rivin komennolla:
+  ```
+  echo "Tyhjä rivi" >> README.md
+  ```
+
+- Jonka jälkeen tarkistin odottavat muutokset komennolla git status. Se näytti tehdyt muutokset, joita ei ollut vielä commitoitu:
+
+![git_tehtäväc](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/8eb130ef-cb02-4dea-adbf-33a55c3b04fc)
+
+- Tämän jälkeen poistin kaikki muutokset ja palautin viimeisimmän commitin tilan komennolla:
+  ```
+  git reset --hard
+  
+  ```
+  # Tehtävä d)
+
+- Sähköpostin ja nimen asettaminen komennoilla:
+  ```
+  git congif --global user.name "Nimi"
+  git config --global user.email "Sähköposti"
+  ```
+
+-  Varaston lokia voidaan tarkastella komennolla:
+```
+git log
+```
+
+- "commit hash": kertoo tunnisteen commitille
+- "Author": Kertoo nimen ja sähköpostiosoitteen siitä, joka teki commitin
+- "Date": Kertoo milloin kommit tehtiin
+- "Commit message": Kertoo viestin, joka kertoo mitä muutoksia commit sisältää
+
   
