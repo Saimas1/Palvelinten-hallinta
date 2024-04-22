@@ -37,4 +37,18 @@ sudo salt '*' state.apply sshd
 - Karvinen 2023, [Salt Vagrant - automatically provision one master and two slaves](https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file)
 - Salt contributors, [Salt overview](https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml)
 - Karvinen 2018, [Pkg-File-Service – Control Daemons with Salt – Change SSH Server Port](https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh)
-- 
+
+
+# Tehtävä a)
+
+- Aloitin tehtävän luomalla "hello"-nimisen kansion C:\salt\hello-hakemistoon
+- Sen jälkeen avasin ja muokkasin notepadilla tiedostoa
+- Kun lähdin suorittamaan tilaa komennolla:
+  ```
+  salt-call --local state.apply C:\salt\hello\init.sls
+  ```
+  -Komento ei onnistunut vaan sain jatkuvasti ilmoituksen:
+![demoni_a](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/4bcc09c1-3286-4fa8-9f0b-594403504eb1)
+
+-En tiedä miksi komento ei toiminut, joten en saanut tehtävää tehtyä.
+
