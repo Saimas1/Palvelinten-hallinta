@@ -76,11 +76,14 @@ sudo salt '*' state.apply sshd
 - Tämän jälkeen käynnistin ssh-palvelun uudelleen, jotta muutokset tulevat voimaan
 ![demoni_c1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/96bbc42a-d742-4651-94c3-ecca6f863fd8)
 
- - Näiden vaiheiden jälkeen lisäsin asetustiedostoon service-watchin
- - Tämän jälkeen yritin suorittaa Salt-tilan komennoilla:
+- Näiden vaiheiden jälkeen lisäsin asetustiedostoon service-watchin
+- Tämän jälkeen yritin suorittaa Salt-tilan komennoilla:
+  
    ```
-sudo cp sshd_port.sls /srv/salt/
-sudo salt-call --local state.apply sshd_port
-```
+  sudo cp sshd_port.sls /srv/salt/
+  
+  sudo salt-call --local state.apply sshd_port
+   ```
+
 -Sain kuitenkin ilmoituksen, että jokin oli mennyt pieleen. Ehkä syötin tiedostoon on virheelliset komennot.. selvitän asiaa vielä lisää, jotta se toimisi
   
