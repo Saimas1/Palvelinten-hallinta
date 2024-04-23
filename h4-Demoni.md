@@ -47,8 +47,40 @@ sudo salt '*' state.apply sshd
   ```
   salt-call --local state.apply C:\salt\hello\init.sls
   ```
-  -Komento ei onnistunut vaan sain jatkuvasti ilmoituksen:
-![demoni_a](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/4bcc09c1-3286-4fa8-9f0b-594403504eb1)
-
+  -Komento ei onnistunut vaan sain jatkuvasti ilmoituksen: " Data failed to compile:" "No matching sls  found.."
 -En tiedä miksi komento ei toiminut, joten en saanut tehtävää tehtyä.
 
+# Tehtävä b)
+- Tässä tehtävässä kävi sama kuin ylemmässä, sain saman ilmoituksen taas enkä onnistunut tätä tehtävää tekemäään
+
+  # Tehtävä c)
+
+  - Sain apachen asennettua ja toimimaan:
+  ![demoni_b1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/43190bc0-2b6e-4242-8580-e3dd687aec33)
+
+- Loin tarvittavat tiedostot "top.sls" , "hello.sls" ja "apache.sls"
+- Kun yritin ajaa tilat virtuaalikoneessa sain kyseisen ilmoituksen:
+ ![demoni_eitoimi2](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/36cc178e-13a4-4948-8749-01066bafc412)
+
+ # Tehtävä d) 
+
+ - Aloitin tarkistamalla "sshd_config"-tiedoston määritellyt portit komennolla:
+   ```
+   cat /etc/ssh/sshd_config | grep Port
+   ```
+- Sen jälkeen lisäsin uuden portin asetustiedostoon komennolla:
+  ```
+  echo "Port 2222" | sudo tee -a /etc/sshd_config
+  ```
+
+- Tämän jälkeen käynnistin ssh-palvelun uudelleen, jotta muutokset tulevat voimaan
+![demoni_c1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/96bbc42a-d742-4651-94c3-ecca6f863fd8)
+
+ - Näiden vaiheiden jälkeen lisäsin asetustiedostoon service-watchin
+ - Tämän jälkeen yritin suorittaa Salt-tilan komennoilla:
+   ```
+sudo cp sshd_port.sls /srv/salt/
+sudo salt-call --local state.apply sshd_port
+```
+-Sain kuitenkin ilmoituksen, että jokin oli mennyt pieleen. Ehkä syötin tiedostoon on virheelliset komennot.. selvitän asiaa vielä lisää, jotta se toimisi
+  
