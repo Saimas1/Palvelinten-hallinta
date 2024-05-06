@@ -15,11 +15,29 @@
 
 # Tehtävä a)
 
--Saltin asennuksen testaus Windowsilla. Olin asentanut sen jo aikaisemmin joten tein testauksen komennolla:
+-Saltin asennuksen testaus Windowsilla. Testasin asennuksen onnistumisen komennolla:
 ```
-salt-call --version
+salt-call --local test.ping
 ```
-![teht_a)1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/e5f0fe4c-142d-40ac-ae77-1510c14e8a71)
+![h5_a1](https://github.com/Saimas1/Palvelinten-hallinta/assets/165194309/22def108-af19-40f4-bc46-f4f963ea90a4)
 
 # Tehtävä b)
 
+- Keräsin tietoa Windows-koneestani komennolla:
+  ```
+  salt-call --local grains.items
+  ```
+ - biosstring:
+   Se kertoo BIOS-version ja valmistajan, joka oli HPQOEM-0
+- cpu_model:
+  Kertoo koneen prosessorin mallin, joka on Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz.
+  -cwd:
+  Kertoo käynnissä olevan prosessorin nykyisen tyäskentelykansion, joka on C:\WINDOWS\system32.
+- mem_total:
+  Kertoo kokonaismuistin määrän megatavuina, joka on 16259 MB
+- num_cpus
+  Kertoo prosessorien määrän joka on koneessani 4
+- osversion:
+  Kertoo käyttöjärjestelmän tarkan version, joka on 10.0.19045.
+
+# Tehtävä c)
